@@ -125,10 +125,13 @@ section {
 .image__top {
   grid-column: 1/4;
   margin-bottom: 50px;
+  width: 100%;
 }
 
 img {
   margin-bottom: 20px;
+  object-fit: cover;
+  width: 100%;
 }
 
 section h2 {
