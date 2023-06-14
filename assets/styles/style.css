@@ -29,8 +29,8 @@ body {
   5. Improve text rendering
 */
 body {
-  line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+  line-height: 1.5;
 }
 
 /*
@@ -86,19 +86,19 @@ h6 {
 }
 
 body {
-  margin: 0 2.5rem;
   font-family: 'Karla';
+  margin: 0 2.5rem;
 }
 
 a {
-  text-decoration: none;
   color: #000;
+  text-decoration: none;
 }
 
 .navbar {
   display: flex;
-  padding-top: 1.875rem;
   padding-bottom: 1.875rem;
+  padding-top: 1.875rem;
 }
 
 .navbar h1 {
@@ -111,14 +111,14 @@ a {
 }
 
 .navbar a {
-  margin-left: 3.75rem;
   font-size: 0.8rem;
+  margin-left: 3.75rem;
 }
 
 section {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
   gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
   margin-bottom: 60px;
 }
 
@@ -132,6 +132,10 @@ img {
   margin-bottom: 20px;
   object-fit: cover;
   width: 100%;
+}
+
+img:hover {
+  opacity: 50%;
 }
 
 section h2 {
@@ -171,8 +175,8 @@ footer h3 {
 }
 
 footer a {
-  font-size: 0.8rem;
   display: block;
+  font-size: 0.8rem;
 }
 
 footer span {
@@ -181,8 +185,8 @@ footer span {
 
 .copyright {
   color: var(--color-grey);
+  font-size: 0.8rem;
   grid-column: 1/3;
   grid-row: 2;
-  font-size: 0.8rem;
   margin-top: 40px;
 }
